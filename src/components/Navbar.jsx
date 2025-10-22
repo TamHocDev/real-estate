@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="#About" className="cursor-pointer hover:text-gray-400">
             About
           </a>
-          <a href="#Project" className="cursor-pointer hover:text-gray-400">
+          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
             Project
           </a>
           <a href="#Testimonials" className="cursor-pointer hover:text-gray-400">
@@ -75,10 +75,10 @@ const Navbar = () => {
             Project
           </a>
           <a
-            href="#Testimonials"
+            href="#Testimonails"
             onClick={() => setShowMobileMenu(false)}
             className="px-4 py-2 rounded-full inline-block">
-            Testimonials
+            Testimonails
           </a>
         </ul>
       </div>
